@@ -13,6 +13,8 @@
  */
 (function( window, undefined ) {
 
+//window.alert('zikken');
+
 // Can't do this because several apps including ASP.NET trace
 // the stack via arguments.caller.callee and Firefox dies if
 // you try to trace through "use strict" call chains. (#13335)
@@ -9785,5 +9787,7 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 		define( "jquery", [], function () { return jQuery; } );
 	}
 }
+
+//window.alert('saigodayo-');
 
 })( window );
